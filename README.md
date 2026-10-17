@@ -1,11 +1,10 @@
-# samepage. — public demo (review v4)
+# samepage. — public demo
 
-Open `index.html` in a browser. This is a standalone public-demo build, not the private app.
+A standalone, interactive public demonstration of samepage., separate from the private application.
 
-- Matches original navigation, folder and document icons, document editor, date controls, rotate, and history presentation.
-- Changes happen in memory and reset on refresh; no requests to the private Supabase service.
-- Uploads are local browser `blob:` URLs and are never sent to any server. History records those local actions as `not_stored.img_001` and onwards.
-- Historical rows are transcribed from the supplied example activity and attributed to alex. or stacy.; they are *demo sample history*, not independently verified events.
-- Uploaded sample photos may identify schools, student work or a QR code. Do not publish until reviewed/redacted.
-- School-related handouts may include publisher copyrights. Obtain permission or replace before distribution.
-- This copy is a REVIEW ONLY. The existing private deployment is unchanged.
+- Mirrors the private application's navigation, folders, document viewer, editing controls, dates, rotation, and history presentation.
+- Changes are temporary and reset when the page reloads. No connection to the private Supabase database.
+- Visitor uploads remain in the browser and are not sent to a server or permanently stored. Temporary uploads receive identifiers beginning with `not_stored.img_001`.
+- Supplied sample images have been cleared by the project owner for use in this public demonstration.
+- Sample activity history uses alex. and stacy. and illustrates the application's history interface. It is not an independently verified audit or evidence record.
+- The original private samepage. application and its data remain separate and unchanged.
